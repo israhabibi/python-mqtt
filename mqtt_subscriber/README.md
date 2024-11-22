@@ -60,6 +60,10 @@ To run the script manually, use:
 python mqtt_subscriber.py
 ```
 
+```sh
+sh mqtt_subscriber.sh
+```
+
 ### 4. **Running the Script with Supervisor**
 
 In a production environment, you may want to ensure that the script runs continuously and is automatically restarted in case of failure. This is where `supervisord` comes in.
@@ -81,7 +85,7 @@ sudo nano /etc/supervisor/supervisord.conf
 
 add program
 
-[program:mqtt_listener]
+[program:mqtt_subscriber]
 command=/home/gws/project/python-mqtt/mqtt_subscriber/mqtt_subscriber.sh
 directory=/home/gws/project/python-mqtt/mqtt_subscriber
 autostart=true
