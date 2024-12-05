@@ -16,7 +16,7 @@ username = os.getenv("MQTT_USERNAME")
 password = os.getenv("MQTT_PASSWORD")
 
 # MQTT Topics
-topics = ["hello/topic", "sensor/temperature", "sensor/humidity", "sensor/datetime"]
+topics = ["sensor/data", "hello/topic", "sensor/temperature", "sensor/humidity", "sensor/datetime"]
 
 # PostgreSQL Database Settings
 db_config = {
