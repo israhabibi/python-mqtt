@@ -137,8 +137,13 @@ sudo systemctl enable supervisor
 To stop the service, use:
 
 ```bash
-sudo supervisorctl stop mqtt_listener
+sudo supervisorctl stop mqtt_subscriber
 ```
+
+```bash
+sudo supervisorctl restart mqtt_subscriber
+```
+
 
 ### 7. **Database Table**
 
