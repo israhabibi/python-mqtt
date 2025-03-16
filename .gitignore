@@ -3,3 +3,4 @@ mqtt_subscriber/log/
 mqtt_mq_esp32/credentials.h
 mqtt_mq_esp32/build/
 mqtt_aht10_dht22/credentials.h
+mqtt_aht10/credentials.h
